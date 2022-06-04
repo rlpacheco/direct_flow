@@ -1,0 +1,8 @@
+v 3
+d direct_flow. Flowchart for systematic reviews and other type of studies.
+d direct_flow by Rafael Leite Pacheco and Rachel Riera
+d Hospital Sírio-Libanês, Universidade Federal de São Paulo.
+d The command abseff was created for the immediate generation of flowcharts for systematic reviews, research synthesis and other type of studies.
+d Full guidance and support: https://github.com/rlpacheco/abseff
+
+p direct_flow Flowchart for systematic reviews and other type of studies
