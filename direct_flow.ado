@@ -11,9 +11,9 @@ rleitepacheco@hotmail.com
 
 
 
-capture program drop sr_flow
+capture program drop direct_flow
 
-program define sr_flow
+program define direct_flow
 
 version 17
 
