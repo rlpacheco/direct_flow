@@ -1,8 +1,8 @@
 /* 
 direct_flow
 Fluxograma para RS - programa bilingue
-v6
-31/05/2022
+v7
+05/06/2022
 
 Rafael Leite Pacheco
 rleitepacheco@hotmail.com 
@@ -61,7 +61,12 @@ syntax [if] [in] [, model(string) n_databases(string) n_other_sources(string) n_
 			local texto_caixa_6 "Referências eliminadas" "(n = `excluidos_fase_um')"
 			local texto_caixa_7 "Referências avaliadas em texto completo" "(n = `para_segunda_fase')"
 			local texto_caixa_8 "Referências excluídas" "com razões" "(n = `excluidos_fase_dois')" 
-			local texto_caixa_9 "Referências de estudos incluídos (n = `reports_incluidos')" "Estudos incluídos na revisão (n = `incluidos_revisão')"  "(`completed' finalizados / `ongoing' em andamento)"
+            	if "`n_included_completed'" == "1" {
+                local texto_caixa_9 "Referências de estudos incluídos (n = `reports_incluidos')" "Estudos incluídos na revisão (n = `incluidos_revisão')"  "(`completed' finalizado / `ongoing' em andamento)"
+            } 
+            	else { 
+				local texto_caixa_9 "Referências de estudos incluídos (n = `reports_incluidos')" "Estudos incluídos na revisão (n = `incluidos_revisão')"  "(`completed' finalizados / `ongoing' em andamento)" 
+            }
 			local texto_caixa_10 "Estudos incluídos na síntese qualitativa (n = `incluidos_sintese_qualitativa')" "Estudos incluídos na síntese quantitativa (n = `incluidos_sintese_quantitativa')"
 
 			graph set window fontface "Times New Roman"
@@ -210,7 +215,12 @@ syntax [if] [in] [, model(string) n_databases(string) n_other_sources(string) n_
 			local texto_caixa_6 "Referências eliminadas" "(n = `excluidos_fase_um')"
 			local texto_caixa_7 "Referências avaliadas em texto completo" "(n = `para_segunda_fase')"
 			local texto_caixa_8 "Referências excluídas" "com razões" "(n = `excluidos_fase_dois')" 
-			local texto_caixa_9 "Referências de estudos incluídos (n = `reports_incluidos')" "Estudos incluídos na revisão (n = `incluidos_revisão')"  "(`completed' finalizados / `ongoing' em andamento)"
+            	if "`n_included_completed'" == "1" {
+                local texto_caixa_9 "Referências de estudos incluídos (n = `reports_incluidos')" "Estudos incluídos na revisão (n = `incluidos_revisão')"  "(`completed' finalizado / `ongoing' em andamento)"
+            } 
+            	else { 
+				local texto_caixa_9 "Referências de estudos incluídos (n = `reports_incluidos')" "Estudos incluídos na revisão (n = `incluidos_revisão')"  "(`completed' finalizados / `ongoing' em andamento)" 
+            }
 			local texto_caixa_10 "Estudos incluídos na síntese qualitativa (n = `incluidos_sintese_qualitativa')" "Estudos incluídos na síntese quantitativa (n = `incluidos_sintese_quantitativa')"
 
 			graph set window fontface "Times New Roman"
@@ -362,7 +372,12 @@ syntax [if] [in] [, model(string) n_databases(string) n_other_sources(string) n_
 			local texto_caixa_6 "Referências eliminadas" "(n = `excluidos_fase_um')"
 			local texto_caixa_7 "Referências avaliadas em texto completo" "(n = `para_segunda_fase')"
 			local texto_caixa_8 "Referências excluídas" "com razões" "(n = `excluidos_fase_dois')" "Referências aguardando" "classificação" "(n = `n_awaiting_classification')"
-			local texto_caixa_9 "Referências de estudos incluídos (n = `reports_incluidos')" "Estudos incluídos na revisão (n = `incluidos_revisão')"  "(`completed' finalizados / `ongoing' em andamento)"
+			    if "`n_included_completed'" == "1" {
+                local texto_caixa_9 "Referências de estudos incluídos (n = `reports_incluidos')" "Estudos incluídos na revisão (n = `incluidos_revisão')"  "(`completed' finalizado / `ongoing' em andamento)"
+            } 
+            	else { 
+				local texto_caixa_9 "Referências de estudos incluídos (n = `reports_incluidos')" "Estudos incluídos na revisão (n = `incluidos_revisão')"  "(`completed' finalizados / `ongoing' em andamento)" 
+            }
 			local texto_caixa_10 "Estudos incluídos na síntese qualitativa (n = `incluidos_sintese_qualitativa')" "Estudos incluídos na síntese quantitativa (n = `incluidos_sintese_quantitativa')"
 
 			graph set window fontface "Times New Roman"
@@ -508,7 +523,12 @@ syntax [if] [in] [, model(string) n_databases(string) n_other_sources(string) n_
 			local texto_caixa_6 "Referências eliminadas" "(n = `excluidos_fase_um')"
 			local texto_caixa_7 "Referências avaliadas em texto completo" "(n = `para_segunda_fase')"
 			local texto_caixa_8 "Referências excluídas" "com razões" "(n = `excluidos_fase_dois')" "Referências aguardando" "classificação" "(n = `n_awaiting_classification')"
-			local texto_caixa_9 "Referências de estudos incluídos (n = `reports_incluidos')" "Estudos incluídos na revisão (n = `incluidos_revisão')"  "(`completed' finalizados / `ongoing' em andamento)"
+			    if "`n_included_completed'" == "1" {
+                local texto_caixa_9 "Referências de estudos incluídos (n = `reports_incluidos')" "Estudos incluídos na revisão (n = `incluidos_revisão')"  "(`completed' finalizado / `ongoing' em andamento)"
+            } 
+            	else { 
+				local texto_caixa_9 "Referências de estudos incluídos (n = `reports_incluidos')" "Estudos incluídos na revisão (n = `incluidos_revisão')"  "(`completed' finalizados / `ongoing' em andamento)" 
+            }
 			local texto_caixa_10 "Estudos incluídos na síntese qualitativa (n = `incluidos_sintese_qualitativa')" "Estudos incluídos na síntese quantitativa (n = `incluidos_sintese_quantitativa')"
 
 			graph set window fontface "Times New Roman"
