@@ -5,7 +5,7 @@ d Hospital Sírio-Libanês; Universidade Federal de São Paulo.
 d Contact: rleitepacheco@hotmail.com
 d The command abseff was created for the immediate generation of flowcharts for systematic reviews, research synthesis and other type of studies.
 d Distribution-Date: 20220603
-d Full guidance and support: https://github.com/rlpacheco/abseff
+d Full guidance and support: https://rlpacheco.github.io/direct_flow/
 
 f direct_flow.ado
 f direct_flow.sthlp
