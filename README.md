@@ -9,13 +9,15 @@ The command direct_flow was created for the immediate generation of flowcharts f
 
 **Authors**
 
-Rafael Leite Pacheco<sup>1,2,3</sup>, Rachel Riera<sup>1,2</sup>
+Rafael Leite Pacheco<sup>1,2,3</sup>, Ana Luiza Cabrera Martimbianco<sup>1,2,4</sup>, Rachel Riera<sup>1,2</sup>
 
 [1] Núcleo de Avaliação de Tecnologias em Saúde, Hospital Sírio-Libanês.
 
 [2] Núcleo de Ensino e Pesquisa em Saúde Baseada em Evidências e Avaliação de Tecnologias em Saúde (NEP-SBEATS), Universidade Federal de São Paulo.
 
 [3] Centro Universitário São Camilo.
+
+[4] Universidade Metropolitana de Santos.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
