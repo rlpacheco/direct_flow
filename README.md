@@ -85,6 +85,75 @@ where,
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Description and examples**
 
+There are current 8 available models in direct_flow. Models 1-4 are directed to a systematic review and models 5-8 are directed to an overview (systematic review of systematic reviews). It is impossible to change boxes, text and models in direct_flow. If you have a suggestion or want a model to be added please contact the authors (rleitepacheco@hotmail.com). 
+
+An example code for each model is presented bellow:
+
+**Model 1 - Portuguese**
+
+direct_flow, model(1) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) n_included_completed(2) n_included_ongoing(1) n_included_qualitative(2) n_included_quantitative(1) language(pt)
+
+**Model 2 - English**
+
+direct_flow, model(1) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) n_included_completed(2) n_included_ongoing(1) n_included_qualitative(2) n_included_quantitative(1) language(en)
+
+**Model 2 - Portuguese**
+
+direct_flow, model(2) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1,105) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) n_included_completed(1) n_included_ongoing(1) n_included_qualitative(2) n_included_quantitative(1) language(pt)
+
+**Model 2 - English**
+
+direct_flow, model(2) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1.105) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) n_included_completed(2) n_included_ongoing(1) n_included_qualitative(2) n_included_quantitative(1) language(en)
+
+**Model 3 - Portuguese**
+
+direct_flow, model(3) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1,105) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_awaiting_classification(1) n_included_reports(2) n_included_studies(2) n_included_completed(1) n_included_ongoing(1) n_included_qualitative(1) n_included_quantitative(1) language(pt)
+
+**Model 3 - English**
+
+direct_flow, model(3) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1.105) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(2) n_awaiting_classification(1) n_included_reports(2) n_included_studies(2) n_included_completed(1) n_included_ongoing(1) n_included_qualitative(1) n_included_quantitative(1) language(en)
+
+**Model 4 - Portuguese**
+
+direct_flow, model(4) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_awaiting_classification(1) n_included_reports(2) n_included_studies(2) n_included_completed(1) n_included_ongoing(1) n_included_qualitative(1) n_included_quantitative(1) language(pt)
+
+**Model 4 - English**
+
+direct_flow, model(4) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_awaiting_classification(1) n_included_reports(2) n_included_studies(2) n_included_completed(1) n_included_ongoing(1) n_included_qualitative(1) n_included_quantitative(1) language(en)
+
+**Model 1 Overview - Portuguese**
+
+direct_flow, model(overview_1) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) language(pt)
+
+**Model 1 Overview - English**
+
+direct_flow, model(overview_1) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) language(en)
+
+**Model 2 Overview - Portuguese**
+
+direct_flow, model(overview_2) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1,105) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) language(pt)
+
+**Model 2 Overview - English**
+
+direct_flow, model(overview_2) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1.105) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) language(en)
+
+**Model 3 Overview - Portuguese**
+
+direct_flow, model(overview_3) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1,105) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(1) n_awaiting_classification(1) n_included_reports(3) n_included_studies(3) language(pt)
+
+**Model 3 Overview - English**
+
+direct_flow, model(overview_3) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1.105) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(1) n_awaiting_classification(1) n_included_reports(3) n_included_studies(3) language(en)
+
+
+**Model 4 Overview - Portuguese**
+
+direct_flow, model(overview_4) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(1) n_awaiting_classification(1) n_included_reports(3) n_included_studies(3) language(pt)
+
+**Model 4 Overview - English**
+direct_flow, model(overview_4) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(1) n_awaiting_classification(1) n_included_reports(3) n_included_studies(3) language(en)
+
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **References**
@@ -95,5 +164,5 @@ The flowcharts were insipired and adapted from the the models recommend by PRISM
  
  2 - Review Manager Web (RevMan Web). The Cochrane Collaboration. Available at revman.cochrane.org
  
-Some parts of the code were inspired by the package **FLOWCHART** by Isaac M. E. Dodd.
+Some parts of the code were inspired by the package **FLOWCHART** by Isaac M. E. Dodd. Available from: https://econpapers.repec.org/software/bocbocode/s458387.htm
 
