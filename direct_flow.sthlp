@@ -1,13 +1,4 @@
 {smcl}
-{* *! version 1.0  6 Jun 2022}{...}
-{vieweralsosee "" "--"}{...}
-{vieweralsosee "Install command2" "ssc install command2"}{...}
-{vieweralsosee "Help command2 (if installed)" "help command2"}{...}
-{viewerjumpto "Syntax" "direct_flow##syntax"}{...}
-{viewerjumpto "Description" "direct_flow_v8_test##description"}{...}
-{viewerjumpto "Options" "direct_flow##options"}{...}
-{viewerjumpto "Remarks" "direct_flow##remarks"}{...}
-{viewerjumpto "Examples" "direct_flow##examples"}{...}
 {title:Title}
 {phang}
 {bf:direct_flow} {hline 2} a command for the immediate generation of flowcharts for systematic reviews, research synthesis and other type of studies
