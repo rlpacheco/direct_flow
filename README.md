@@ -97,35 +97,47 @@ direct_flow, model(1) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_
 
 ![model_1](https://user-images.githubusercontent.com/98093302/172178022-03423251-3d40-4bab-ae1e-d76580b7fc71.png)
 
-
 **Model 1 - English**
 
 direct_flow, model(1) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) n_included_completed(2) n_included_ongoing(1) n_included_qualitative(2) n_included_quantitative(1) language(en)
 
+![model_1_en](https://user-images.githubusercontent.com/98093302/172179129-e19c2f20-82ec-4aa6-8a0a-9d12f31e2afa.png)
+
 **Model 2 - Portuguese**
 
-direct_flow, model(2) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1,105) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) n_included_completed(1) n_included_ongoing(1) n_included_qualitative(2) n_included_quantitative(1) language(pt)
+direct_flow, model(2) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1,105) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) n_included_completed(1) n_included_ongoing(2) n_included_qualitative(1) n_included_quantitative(1) language(pt)
+
+![model_2](https://user-images.githubusercontent.com/98093302/172179299-6d78780b-12d4-4677-be67-d45950dd1bf7.png)
 
 **Model 2 - English**
 
 direct_flow, model(2) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1.105) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) n_included_completed(2) n_included_ongoing(1) n_included_qualitative(2) n_included_quantitative(1) language(en)
 
+![model_2_en](https://user-images.githubusercontent.com/98093302/172179415-b5b0693e-a1c5-4fe7-8445-44b4cb3c194d.png)
+
 **Model 3 - Portuguese**
 
 direct_flow, model(3) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1,105) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_awaiting_classification(1) n_included_reports(2) n_included_studies(2) n_included_completed(1) n_included_ongoing(1) n_included_qualitative(1) n_included_quantitative(1) language(pt)
+
+![model_3](https://user-images.githubusercontent.com/98093302/172179540-cc09461e-6895-49b4-8d4b-8a4f0bd4813a.png)
 
 **Model 3 - English**
 
 direct_flow, model(3) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1.105) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(2) n_awaiting_classification(1) n_included_reports(2) n_included_studies(2) n_included_completed(1) n_included_ongoing(1) n_included_qualitative(1) n_included_quantitative(1) language(en)
 
+![model_3_en](https://user-images.githubusercontent.com/98093302/172179650-37a3bd5b-f48a-4876-baaf-cdc2ce94d4d9.png)
+
 **Model 4 - Portuguese**
 
 direct_flow, model(4) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_awaiting_classification(1) n_included_reports(2) n_included_studies(2) n_included_completed(1) n_included_ongoing(1) n_included_qualitative(1) n_included_quantitative(1) language(pt)
+
+![model_4](https://user-images.githubusercontent.com/98093302/172179753-fe53f64b-bfb5-46df-b2f5-d5b98aeebac7.png)
 
 **Model 4 - English**
 
 direct_flow, model(4) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_awaiting_classification(1) n_included_reports(2) n_included_studies(2) n_included_completed(1) n_included_ongoing(1) n_included_qualitative(1) n_included_quantitative(1) language(en)
 
+![model_4_en](https://user-images.githubusercontent.com/98093302/172179868-a73f89e2-fcfc-4571-b875-7aadca449bd4.png)
 
 ***Models for overviews (systematic review of systematic reviews)***
 
@@ -133,35 +145,49 @@ direct_flow, model(4) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_
 
 direct_flow, model(overview_1) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) language(pt)
 
+![modelo_1](https://user-images.githubusercontent.com/98093302/172179984-7f8d143e-53a7-4cd3-9983-e39bd868ac4e.png)
+
 **Model 1 Overview - English**
 
 direct_flow, model(overview_1) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) language(en)
+
+![modelo_1_en](https://user-images.githubusercontent.com/98093302/172180068-346d7171-7b32-4c5b-85ff-960e3552dafb.png)
 
 **Model 2 Overview - Portuguese**
 
 direct_flow, model(overview_2) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1,105) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) language(pt)
 
+![modelo_2](https://user-images.githubusercontent.com/98093302/172180145-bf175362-e3d7-4deb-af0a-75f48b0f05f4.png)
+
 **Model 2 Overview - English**
 
 direct_flow, model(overview_2) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1.105) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) language(en)
+
+![modelo_2_en](https://user-images.githubusercontent.com/98093302/172180220-9150b9a5-22f1-4bd4-a1bd-b1094c0a3564.png)
 
 **Model 3 Overview - Portuguese**
 
 direct_flow, model(overview_3) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1,105) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(1) n_awaiting_classification(1) n_included_reports(3) n_included_studies(3) language(pt)
 
+![modelo_3](https://user-images.githubusercontent.com/98093302/172180353-f7b2be50-9308-4762-b9d8-c34c52049b76.png)
+
 **Model 3 Overview - English**
 
 direct_flow, model(overview_3) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1.105) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(1) n_awaiting_classification(1) n_included_reports(3) n_included_studies(3) language(en)
+
+![modelo_3_en](https://user-images.githubusercontent.com/98093302/172180427-4bdcfc00-7a71-4401-9a38-de0b3d79dcbd.png)
 
 **Model 4 Overview - Portuguese**
 
 direct_flow, model(overview_4) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(1) n_awaiting_classification(1) n_included_reports(3) n_included_studies(3) language(pt)
 
+![modelo_4](https://user-images.githubusercontent.com/98093302/172180559-ea2bdf37-eb97-4d11-b9f6-1fdd22e03744.png)
+
 **Model 4 Overview - English**
 
 direct_flow, model(overview_4) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(1) n_awaiting_classification(1) n_included_reports(3) n_included_studies(3) language(en)
 
-
+![modelo_4_en](https://user-images.githubusercontent.com/98093302/172180674-8f4fde86-6f44-410c-a331-63ca0d4c154c.png)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **References**
