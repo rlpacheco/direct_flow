@@ -110,6 +110,7 @@ Some parts of the code were inspired by the package FLOWCHART by Isaac M. E. Dod
 
 Rafael Leite Pacheco, Núcleo de Avaliação de Tecnologias em Saúde (NATS) - Hospital Sírio-Libanês.
 Rachel Riera, Núcleo de Avaliação de Tecnologias em Saúde (NATS) - Hospital Sírio-Libanês.
+Ana Luiza Cabrera Martimbianco, Núcleo de Avaliação de Tecnologias em Saúde (NATS) - Hospital Sírio-Libanês.
 
 Email {browse "mailto:rleitepacheco@hotmail.com":rleitepacheco@hotmail.com}
 
