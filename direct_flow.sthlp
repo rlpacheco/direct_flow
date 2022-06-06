@@ -18,7 +18,7 @@
 {pstd}
 
 {pstd}
- {cmd:direct_flow} generates flowcharts for systematic reviews, research synthesis and other type of studies.
+ {cmd:direct_flow} generates flowcharts for systematic reviews, research synthesis and other type of studies. Complete guidance and all available models are available at: https://rlpacheco.github.io/direct_flow/
 
 {marker options}{...}
 {title:Options}
