@@ -31,7 +31,7 @@ e-mail: rleitepacheco@hotmail.com
 
 (Step 1) Type at STATA: net from https://rlpacheco.github.io/direct_flow/
 
-(Step 2) Then type: net install direct_flow
+(Step 2) Then type: net install direct_flow, replace
 
 Your package will be ready for use. For details, type: net describe direct_flow
 
