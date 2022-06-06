@@ -1,6 +1,6 @@
 v 3
 d direct_flow. Flowchart for systematic reviews and other type of studies.
-d direct_flow by Rafael Leite Pacheco and Rachel Riera
+d direct_flow by Rafael Leite Pacheco, Ana Luiza Cabrera Martimbianco, Rachel Riera
 d Hospital Sírio-Libanês, Universidade Federal de São Paulo.
 d The command direct_flow was created for the immediate generation of flowcharts for systematic reviews, research synthesis and other type of studies.
 d Full guidance and support: https://rlpacheco.github.io/direct_flow/
