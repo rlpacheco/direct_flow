@@ -95,6 +95,9 @@ An example code for each model is presented bellow:
 
 direct_flow, model(1) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) n_included_completed(2) n_included_ongoing(1) n_included_qualitative(2) n_included_quantitative(1) language(pt)
 
+![model_1](https://user-images.githubusercontent.com/98093302/172178022-03423251-3d40-4bab-ae1e-d76580b7fc71.png)
+
+
 **Model 1 - English**
 
 direct_flow, model(1) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) n_included_completed(2) n_included_ongoing(1) n_included_qualitative(2) n_included_quantitative(1) language(en)
