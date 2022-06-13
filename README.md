@@ -157,7 +157,7 @@ direct_flow, model(5) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_
 
 direct_flow, model(6) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) language(pt)
 
-![model_6](https://user-images.githubusercontent.com/98093302/173370159-55715b13-d88a-4798-a6be-feb0b3c834eb.png)
+![model_6](https://user-images.githubusercontent.com/98093302/173370635-06cfc026-7305-427d-b9e4-e9074b995c7a.png)
 
 **Model 6 - English**
 
