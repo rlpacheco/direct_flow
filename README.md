@@ -87,7 +87,7 @@ where,
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Description and examples**
 
-There are current 8 available models in direct_flow. Models 1-4 are directed to a systematic review and models 5-8 are directed to an overview (systematic review of systematic reviews). It is impossible to change boxes, text and models in direct_flow. If you have a suggestion or want a model to be added please contact the authors (rleitepacheco@hotmail.com). 
+There are current 10 available models in direct_flow. Models 1-6 are directed to a systematic review and models 7-10 are directed to an overview (systematic review of systematic reviews). It is impossible to change boxes, text and models in direct_flow. If you have a suggestion or want a model to be added please contact the authors (rleitepacheco@hotmail.com). 
 
 An example code for each model is presented bellow:
 
@@ -140,6 +140,30 @@ direct_flow, model(4) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_
 direct_flow, model(4) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_awaiting_classification(1) n_included_reports(2) n_included_studies(2) n_included_completed(1) n_included_ongoing(1) n_included_qualitative(1) n_included_quantitative(1) language(en)
 
 ![model_4_en](https://user-images.githubusercontent.com/98093302/172179868-a73f89e2-fcfc-4571-b875-7aadca449bd4.png)
+
+**Model 5 - Portuguese**
+
+direct_flow, model(5) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(1) n_awaiting_classification(1) n_included_reports(3) n_included_studies(3) language(pt)
+
+![model_5](https://user-images.githubusercontent.com/98093302/173367941-aad13bd4-9bc1-4cf2-bb21-951dd3d8bd69.png)
+
+**Model 5 - English**
+
+direct_flow, model(5) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(1) n_awaiting_classification(1) n_included_reports(3) n_included_studies(3) language(en)
+
+![model_5_en](https://user-images.githubusercontent.com/98093302/173368096-5c513612-9e0e-4206-8e0e-b175da60cf1e.png)
+
+**Model 6 - Portuguese**
+
+direct_flow, model(6) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) language(pt)
+
+![model_6](https://user-images.githubusercontent.com/98093302/173370159-55715b13-d88a-4798-a6be-feb0b3c834eb.png)
+
+**Model 6 - English**
+
+direct_flow, model(6) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) language(en)
+
+![model_6_en](https://user-images.githubusercontent.com/98093302/173370306-3af696db-c9ee-4a6a-9107-dcd01c5b0720.png)
 
 ***Models for overviews (systematic review of systematic reviews)***
 
