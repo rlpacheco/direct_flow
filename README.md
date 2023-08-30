@@ -9,7 +9,7 @@ The command direct_flow was created for the immediate generation of flowcharts f
 
 **Authors**
 
-Rafael Leite Pacheco<sup>1,2,3</sup>, Ana Luiza Cabrera Martimbianco<sup>1,2,4</sup>, Rachel Riera<sup>1,2</sup>
+Rafael Leite Pacheco<sup>1,2,3</sup>, Ana Luiza Cabrera Martimbianco<sup>1,2,5</sup>, Rachel Riera<sup>1,2</sup>
 
 [1] Núcleo de Avaliação de Tecnologias em Saúde, Hospital Sírio-Libanês.
 
@@ -17,7 +17,9 @@ Rafael Leite Pacheco<sup>1,2,3</sup>, Ana Luiza Cabrera Martimbianco<sup>1,2,4</
 
 [3] Centro Universitário São Camilo.
 
-[4] Universidade Metropolitana de Santos.
+[4] Laboratório de Programação e Análise de Dados (LPAD), Disciplina de Economia e Gestão em Saúde, Universidade Federal de São Paulo.
+
+[5] Universidade Metropolitana de Santos.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
