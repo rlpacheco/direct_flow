@@ -89,7 +89,7 @@ where,
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Description and examples**
 
-There are current 10 available models in direct_flow. Models 1-6 are directed to a systematic review and models 7-10 are directed to an overview (systematic review of systematic reviews). It is impossible to change boxes, text and models in direct_flow. If you have a suggestion or want a model to be added please contact the authors (rleitepacheco@hotmail.com). 
+There are current 11 available models in direct_flow. Models 1-7 are directed to a systematic review and models 7-10 are directed to an overview (systematic review of systematic reviews). It is impossible to change boxes, text and models in direct_flow. If you have a suggestion or want a model to be added please contact the authors (rleitepacheco@hotmail.com). 
 
 An example code for each model is presented bellow:
 
@@ -166,6 +166,17 @@ direct_flow, model(6) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_
 direct_flow, model(6) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) language(en)
 
 ![model_6_en](https://user-images.githubusercontent.com/98093302/173370306-3af696db-c9ee-4a6a-9107-dcd01c5b0720.png)
+
+**Model 7 - Portuguese**
+
+direct_flow, model(7) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(2) n_included_studies(2) n_included_completed(1) n_included_ongoing(1) language(pt)
+
+![ex7_pt](https://github.com/rlpacheco/direct_flow/assets/98093302/37fa5813-ea70-40fd-bf9d-f145c799ac60)
+
+**Model 8 - English**
+direct_flow, model(7) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(2) n_included_studies(2) n_included_completed(1) n_included_ongoing(1) language(en)
+
+![ex7_eng](https://github.com/rlpacheco/direct_flow/assets/98093302/960ab333-bc17-4714-9ddd-4cc33143c886)
 
 ***Models for overviews (systematic review of systematic reviews)***
 
