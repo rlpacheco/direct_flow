@@ -1,4 +1,4 @@
-v 3
+v 4
 d direct_flow. Flowchart for systematic reviews and other type of studies.
 d direct_flow by Rafael Leite Pacheco, Ana Luiza Cabrera Martimbianco and
 d Rachel Riera
