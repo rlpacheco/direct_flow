@@ -173,7 +173,7 @@ direct_flow, model(7) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_
 
 ![ex7_pt](https://github.com/rlpacheco/direct_flow/assets/98093302/37fa5813-ea70-40fd-bf9d-f145c799ac60)
 
-**Model 8 - English**
+**Model 7 - English**
 direct_flow, model(7) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(2) n_included_studies(2) n_included_completed(1) n_included_ongoing(1) language(en)
 
 ![ex7_eng](https://github.com/rlpacheco/direct_flow/assets/98093302/960ab333-bc17-4714-9ddd-4cc33143c886)
