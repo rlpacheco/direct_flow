@@ -4,7 +4,7 @@
 
 Stata command **direct_flow** — Flowchart for systematic reviews and evidence synthesis.
 
-The command `direct_flow` generates publication-ready flowcharts for systematic reviews, overviews of reviews, and other types of evidence synthesis directly from Stata. It supports 12 models and two languages (Portuguese and English). version 2.0.
+The command `direct_flow` (version 2.0) generates publication-ready flowcharts for systematic reviews, overviews of reviews, and other types of evidence synthesis directly from Stata. It supports 12 models and two languages (Portuguese and English).
 
 ---
 
@@ -16,6 +16,7 @@ Rafael Leite Pacheco<sup>1,2,3,4</sup>, Rachel Riera<sup>1,2</sup>
 <sup>2</sup> Núcleo de Ensino e Pesquisa em Saúde Baseada em Evidências e Avaliação de Tecnologias em Saúde (NEP-SBEATS), Universidade Federal de São Paulo.  
 <sup>3</sup> Centro Universitário São Camilo.  
 <sup>4</sup> Laboratório de Programação e Análise de Dados (LPAD), Disciplina de Economia e Gestão em Saúde, Universidade Federal de São Paulo.  
+
 
 ---
 
@@ -134,181 +135,97 @@ Overview models use "reviews" instead of "studies" in the inclusion box.
 **Model 1 — Portuguese**
 
 ```stata
-direct_flow, model(1) n_databases(1,200) n_other_sources(5) ///
-  n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) ///
-  n_second_phase(5) n_excluded_second_phase(2) ///
-  n_included_reports(3) n_included_studies(3) ///
-  n_included_completed(2) n_included_ongoing(1) ///
-  n_included_qualitative(2) n_included_quantitative(1) language(pt)
+direct_flow, model(1) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) n_included_completed(2) n_included_ongoing(1) n_included_qualitative(2) n_included_quantitative(1) language(pt)
 ```
 
 **Model 1 — English**
 
 ```stata
-direct_flow, model(1) n_databases(1.200) n_other_sources(5) ///
-  n_duplicates(100) n_first_phase(1.105) n_excluded_first_phase(1.100) ///
-  n_second_phase(5) n_excluded_second_phase(2) ///
-  n_included_reports(3) n_included_studies(3) ///
-  n_included_completed(2) n_included_ongoing(1) ///
-  n_included_qualitative(2) n_included_quantitative(1) language(en)
+direct_flow, model(1) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) n_included_completed(2) n_included_ongoing(1) n_included_qualitative(2) n_included_quantitative(1) language(en)
 ```
 
 **Model 2 — Portuguese**
 
 ```stata
-direct_flow, model(2) n_databases(1,200) n_other_sources(5) ///
-  n_duplicates(100) n_after_duplicates(1,105) ///
-  n_first_phase(1,105) n_excluded_first_phase(1,100) ///
-  n_second_phase(5) n_excluded_second_phase(2) ///
-  n_included_reports(3) n_included_studies(3) ///
-  n_included_completed(1) n_included_ongoing(2) ///
-  n_included_qualitative(1) n_included_quantitative(1) language(pt)
+direct_flow, model(2) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1,105) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) n_included_completed(1) n_included_ongoing(2) n_included_qualitative(1) n_included_quantitative(1) language(pt)
 ```
 
 **Model 2 — English**
 
 ```stata
-direct_flow, model(2) n_databases(1.200) n_other_sources(5) ///
-  n_duplicates(100) n_after_duplicates(1.105) ///
-  n_first_phase(1.105) n_excluded_first_phase(1.100) ///
-  n_second_phase(5) n_excluded_second_phase(2) ///
-  n_included_reports(3) n_included_studies(3) ///
-  n_included_completed(2) n_included_ongoing(1) ///
-  n_included_qualitative(2) n_included_quantitative(1) language(en)
+direct_flow, model(2) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1.105) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) n_included_completed(2) n_included_ongoing(1) n_included_qualitative(2) n_included_quantitative(1) language(en)
 ```
 
 **Model 3 — Portuguese**
 
 ```stata
-direct_flow, model(3) n_databases(1,200) n_other_sources(5) ///
-  n_duplicates(100) n_after_duplicates(1,105) ///
-  n_first_phase(1,105) n_excluded_first_phase(1,100) ///
-  n_second_phase(5) n_excluded_second_phase(2) ///
-  n_awaiting_classification(1) ///
-  n_included_reports(2) n_included_studies(2) ///
-  n_included_completed(1) n_included_ongoing(1) ///
-  n_included_qualitative(1) n_included_quantitative(1) language(pt)
+direct_flow, model(3) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1,105) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_awaiting_classification(1) n_included_reports(2) n_included_studies(2) n_included_completed(1) n_included_ongoing(1) n_included_qualitative(1) n_included_quantitative(1) language(pt)
 ```
 
 **Model 3 — English**
 
 ```stata
-direct_flow, model(3) n_databases(1.200) n_other_sources(5) ///
-  n_duplicates(100) n_after_duplicates(1.105) ///
-  n_first_phase(1.105) n_excluded_first_phase(1.100) ///
-  n_second_phase(5) n_excluded_second_phase(2) ///
-  n_awaiting_classification(1) ///
-  n_included_reports(2) n_included_studies(2) ///
-  n_included_completed(1) n_included_ongoing(1) ///
-  n_included_qualitative(1) n_included_quantitative(1) language(en)
+direct_flow, model(3) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1.105) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(2) n_awaiting_classification(1) n_included_reports(2) n_included_studies(2) n_included_completed(1) n_included_ongoing(1) n_included_qualitative(1) n_included_quantitative(1) language(en)
 ```
 
 **Model 4 — Portuguese**
 
 ```stata
-direct_flow, model(4) n_databases(1,200) n_other_sources(5) ///
-  n_duplicates(100) n_first_phase(1,105) ///
-  n_excluded_first_phase(1,100) n_second_phase(5) ///
-  n_excluded_second_phase(2) n_awaiting_classification(1) ///
-  n_included_reports(2) n_included_studies(2) ///
-  n_included_completed(1) n_included_ongoing(1) ///
-  n_included_qualitative(1) n_included_quantitative(1) language(pt)
+direct_flow, model(4) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_awaiting_classification(1) n_included_reports(2) n_included_studies(2) n_included_completed(1) n_included_ongoing(1) n_included_qualitative(1) n_included_quantitative(1) language(pt)
 ```
 
 **Model 4 — English**
 
 ```stata
-direct_flow, model(4) n_databases(1,200) n_other_sources(5) ///
-  n_duplicates(100) n_first_phase(1,105) ///
-  n_excluded_first_phase(1,100) n_second_phase(5) ///
-  n_excluded_second_phase(2) n_awaiting_classification(1) ///
-  n_included_reports(2) n_included_studies(2) ///
-  n_included_completed(1) n_included_ongoing(1) ///
-  n_included_qualitative(1) n_included_quantitative(1) language(en)
+direct_flow, model(4) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_awaiting_classification(1) n_included_reports(2) n_included_studies(2) n_included_completed(1) n_included_ongoing(1) n_included_qualitative(1) n_included_quantitative(1) language(en)
 ```
 
 **Model 5 — Portuguese**
 
 ```stata
-direct_flow, model(5) n_databases(1.200) n_other_sources(5) ///
-  n_duplicates(100) n_first_phase(1.105) ///
-  n_excluded_first_phase(1.100) n_second_phase(5) ///
-  n_excluded_second_phase(1) n_awaiting_classification(1) ///
-  n_included_reports(3) n_included_studies(3) language(pt)
+direct_flow, model(5) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(1) n_awaiting_classification(1) n_included_reports(3) n_included_studies(3) language(pt)
 ```
 
 **Model 5 — English**
 
 ```stata
-direct_flow, model(5) n_databases(1,200) n_other_sources(5) ///
-  n_duplicates(100) n_first_phase(1,105) ///
-  n_excluded_first_phase(1,100) n_second_phase(5) ///
-  n_excluded_second_phase(1) n_awaiting_classification(1) ///
-  n_included_reports(3) n_included_studies(3) language(en)
+direct_flow, model(5) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(1) n_awaiting_classification(1) n_included_reports(3) n_included_studies(3) language(en)
 ```
 
 **Model 6 — Portuguese**
 
 ```stata
-direct_flow, model(6) n_databases(1.200) n_other_sources(5) ///
-  n_duplicates(100) n_first_phase(1.105) ///
-  n_excluded_first_phase(1.100) n_second_phase(5) ///
-  n_excluded_second_phase(2) n_included_reports(3) ///
-  n_included_studies(3) language(pt)
+direct_flow, model(6) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) language(pt)
 ```
 
 **Model 6 — English**
 
 ```stata
-direct_flow, model(6) n_databases(1,200) n_other_sources(5) ///
-  n_duplicates(100) n_first_phase(1,105) ///
-  n_excluded_first_phase(1,100) n_second_phase(5) ///
-  n_excluded_second_phase(2) n_included_reports(3) ///
-  n_included_studies(3) language(en)
+direct_flow, model(6) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) language(en)
 ```
 
 **Model 7 — Portuguese**
 
 ```stata
-direct_flow, model(7) n_databases(1,200) n_other_sources(5) ///
-  n_duplicates(100) n_first_phase(1,105) ///
-  n_excluded_first_phase(1,100) n_second_phase(5) ///
-  n_excluded_second_phase(2) n_included_reports(2) ///
-  n_included_studies(2) n_included_completed(1) ///
-  n_included_ongoing(1) language(pt)
+direct_flow, model(7) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(2) n_included_studies(2) n_included_completed(1) n_included_ongoing(1) language(pt)
 ```
 
 **Model 7 — English**
 
 ```stata
-direct_flow, model(7) n_databases(1,200) n_other_sources(5) ///
-  n_duplicates(100) n_first_phase(1,105) ///
-  n_excluded_first_phase(1,100) n_second_phase(5) ///
-  n_excluded_second_phase(2) n_included_reports(2) ///
-  n_included_studies(2) n_included_completed(1) ///
-  n_included_ongoing(1) language(en)
+direct_flow, model(7) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(2) n_included_studies(2) n_included_completed(1) n_included_ongoing(1) language(en)
 ```
 
 **Model 8 — Portuguese**
 
 ```stata
-direct_flow, model(8) n_databases(1,200) n_other_sources(5) ///
-  n_duplicates(100) n_first_phase(1,105) ///
-  n_excluded_first_phase(1,100) n_second_phase(5) ///
-  n_excluded_second_phase(2) n_included_reports(3) ///
-  n_included_studies(3) n_included_completed(2) ///
-  n_included_ongoing(1) n_included_with_results(2) language(pt)
+direct_flow, model(8) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) n_included_completed(2) n_included_ongoing(1) n_included_with_results(2) language(pt)
 ```
 
 **Model 8 — English**
 
 ```stata
-direct_flow, model(8) n_databases(1,200) n_other_sources(5) ///
-  n_duplicates(100) n_first_phase(1,105) ///
-  n_excluded_first_phase(1,100) n_second_phase(5) ///
-  n_excluded_second_phase(2) n_included_reports(3) ///
-  n_included_studies(3) n_included_completed(2) ///
-  n_included_ongoing(1) n_included_with_results(2) language(en)
+direct_flow, model(8) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) n_included_completed(2) n_included_ongoing(1) n_included_with_results(2) language(en)
 ```
 
 ### Models for overviews (systematic review of systematic reviews)
@@ -316,84 +233,51 @@ direct_flow, model(8) n_databases(1,200) n_other_sources(5) ///
 **Overview Model 1 — Portuguese**
 
 ```stata
-direct_flow, model(overview_1) n_databases(1,200) n_other_sources(5) ///
-  n_duplicates(100) n_first_phase(1,105) ///
-  n_excluded_first_phase(1,100) n_second_phase(5) ///
-  n_excluded_second_phase(2) n_included_reports(3) ///
-  n_included_studies(3) language(pt)
+direct_flow, model(overview_1) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) language(pt)
 ```
 
 **Overview Model 1 — English**
 
 ```stata
-direct_flow, model(overview_1) n_databases(1.200) n_other_sources(5) ///
-  n_duplicates(100) n_first_phase(1.105) ///
-  n_excluded_first_phase(1.100) n_second_phase(5) ///
-  n_excluded_second_phase(2) n_included_reports(3) ///
-  n_included_studies(3) language(en)
+direct_flow, model(overview_1) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) language(en)
 ```
 
 **Overview Model 2 — Portuguese**
 
 ```stata
-direct_flow, model(overview_2) n_databases(1,200) n_other_sources(5) ///
-  n_duplicates(100) n_after_duplicates(1,105) ///
-  n_first_phase(1,105) n_excluded_first_phase(1,100) ///
-  n_second_phase(5) n_excluded_second_phase(2) ///
-  n_included_reports(3) n_included_studies(3) language(pt)
+direct_flow, model(overview_2) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1,105) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) language(pt)
 ```
 
 **Overview Model 2 — English**
 
 ```stata
-direct_flow, model(overview_2) n_databases(1.200) n_other_sources(5) ///
-  n_duplicates(100) n_after_duplicates(1.105) ///
-  n_first_phase(1.105) n_excluded_first_phase(1.100) ///
-  n_second_phase(5) n_excluded_second_phase(2) ///
-  n_included_reports(3) n_included_studies(3) language(en)
+direct_flow, model(overview_2) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1.105) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(2) n_included_reports(3) n_included_studies(3) language(en)
 ```
 
 **Overview Model 3 — Portuguese**
 
 ```stata
-direct_flow, model(overview_3) n_databases(1,200) n_other_sources(5) ///
-  n_duplicates(100) n_after_duplicates(1,105) ///
-  n_first_phase(1,105) n_excluded_first_phase(1,100) ///
-  n_second_phase(5) n_excluded_second_phase(1) ///
-  n_awaiting_classification(1) n_included_reports(3) ///
-  n_included_studies(3) language(pt)
+direct_flow, model(overview_3) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1,105) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(1) n_awaiting_classification(1) n_included_reports(3) n_included_studies(3) language(pt)
 ```
 
 **Overview Model 3 — English**
 
 ```stata
-direct_flow, model(overview_3) n_databases(1.200) n_other_sources(5) ///
-  n_duplicates(100) n_after_duplicates(1.105) ///
-  n_first_phase(1.105) n_excluded_first_phase(1.100) ///
-  n_second_phase(5) n_excluded_second_phase(1) ///
-  n_awaiting_classification(1) n_included_reports(3) ///
-  n_included_studies(3) language(en)
+direct_flow, model(overview_3) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_after_duplicates(1.105) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(1) n_awaiting_classification(1) n_included_reports(3) n_included_studies(3) language(en)
 ```
 
 **Overview Model 4 — Portuguese**
 
 ```stata
-direct_flow, model(overview_4) n_databases(1,200) n_other_sources(5) ///
-  n_duplicates(100) n_first_phase(1,105) ///
-  n_excluded_first_phase(1,100) n_second_phase(5) ///
-  n_excluded_second_phase(1) n_awaiting_classification(1) ///
-  n_included_reports(3) n_included_studies(3) language(pt)
+direct_flow, model(overview_4) n_databases(1,200) n_other_sources(5) n_duplicates(100) n_first_phase(1,105) n_excluded_first_phase(1,100) n_second_phase(5) n_excluded_second_phase(1) n_awaiting_classification(1) n_included_reports(3) n_included_studies(3) language(pt)
 ```
 
 **Overview Model 4 — English**
 
 ```stata
-direct_flow, model(overview_4) n_databases(1.200) n_other_sources(5) ///
-  n_duplicates(100) n_first_phase(1.105) ///
-  n_excluded_first_phase(1.100) n_second_phase(5) ///
-  n_excluded_second_phase(1) n_awaiting_classification(1) ///
-  n_included_reports(3) n_included_studies(3) language(en)
+direct_flow, model(overview_4) n_databases(1.200) n_other_sources(5) n_duplicates(100) n_first_phase(1.105) n_excluded_first_phase(1.100) n_second_phase(5) n_excluded_second_phase(1) n_awaiting_classification(1) n_included_reports(3) n_included_studies(3) language(en)
 ```
+
 
 ---
 
